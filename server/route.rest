@@ -1,0 +1,39 @@
+
+GET http://localhost:4000/users
+
+
+###
+
+
+GET http://localhost:4000/users/63ac29bfa3707e61c15d8ff9
+
+
+###
+
+
+POST http://localhost:4000/users
+Content-Type: application/json
+
+{
+    "name": "basha",
+    "age" : 31,
+    "email": "darsh@gmail.com",
+    "mobile": 222222345
+}
+
+
+###
+
+
+DELETE http://localhost:4000/users/63ac2950a3707e61c15d8feb
+
+
+###
+
+
+PATCH http://localhost:4000/users/63ac29bfa3707e61c15d8ff9
+Content-Type: application/json
+
+{
+    "name": "rose"
+}
